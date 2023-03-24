@@ -32,6 +32,7 @@ class Settings(BaseSettings):
     PRODUCT_GATEWAY_URL: HttpUrl = "https://gateway.testbed.fi"
     DEFINITIONS_GIT_URL: HttpUrl = "https://github.com/Virtual-Finland/definitions.git"
     DEFINITIONS_WEB_URL: HttpUrl = "https://github.com/Virtual-Finland/definitions"
+    ACR_VALUES: str = "fake-auth"
 
 
 conf = Settings()
