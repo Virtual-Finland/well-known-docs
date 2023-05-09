@@ -18,9 +18,7 @@ class Settings(BaseSettings):
         "jquery-3.4.1.min.js",
     ]
 
-    DOCUMENTATION_HUB_URL: Optional[
-        HttpUrl
-    ] = "https://miro.com/app/board/uXjVO8VCjGA=/"
+    DOCUMENTATION_HUB_URL: Optional[HttpUrl] = "https://developer.testbed.fi/resources"
 
     DATASPACE_BASE_DOMAIN: str = "testbed.fi"
     AUTHENTICATION_PROVIDER_URL: HttpUrl = "https://login.testbed.fi"
