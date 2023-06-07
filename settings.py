@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     CONSENT_PROVIDER_URL: HttpUrl = "https://consent.testbed.fi"
     WEBSITE_URL: HttpUrl = "https://testbed.fi"
     DATASPACE_DOCS_URL: HttpUrl = "https://docs.testbed.fi"
+    DATASPACE_NAME: str = "Virtual Finland Testbed"
     DEFINITIONS_VIEWER_URL: HttpUrl = "https://definitions.testbed.fi"
     DEVELOPER_PORTAL_URL: HttpUrl = "https://developer.testbed.fi"
     PRODUCT_GATEWAY_URL: HttpUrl = "https://gateway.testbed.fi"
