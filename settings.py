@@ -21,7 +21,8 @@ class Settings(BaseSettings):
     DOCUMENTATION_HUB_URL: Optional[HttpUrl] = "https://developer.testbed.fi/resources"
 
     DATASPACE_BASE_DOMAIN: str = "testbed.fi"
-    AUTHENTICATION_PROVIDER_URL: HttpUrl = "https://login.testbed.fi"
+    AUTHENTICATION_PROVIDER_DEVELOPER_URL: HttpUrl = "https://login.testbed.fi"
+    AUTHENTICATION_PROVIDER_END_USER_URL: HttpUrl = "https://login.testbed.fi"
     CONSENT_PROVIDER_URL: HttpUrl = "https://consent.testbed.fi"
     WEBSITE_URL: HttpUrl = "https://testbed.fi"
     DATASPACE_DOCS_URL: HttpUrl = "https://docs.testbed.fi"
